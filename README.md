@@ -39,7 +39,7 @@ Run:
     git add .
     git commit -m
     cd public
-    ./public.sh
+    ./publish.sh
     cd ../../
     
     # Blog
@@ -48,7 +48,7 @@ Run:
     git commit -m
     git push origin develop
     cd public
-    ./public.sh
+    ./publish.sh
     cd ../../
     
     # Level-up
@@ -57,7 +57,7 @@ Run:
     git commit -m
     git push origin develop
     cd public
-    ./public.sh
+    ./publish.sh
     cd ../../
     
     # Projects
@@ -66,7 +66,7 @@ Run:
     git commit -m
     git push origin develop
     cd public
-    ./public.sh
+    ./publish.sh
     cd ../../
     
     # Talks
@@ -75,7 +75,7 @@ Run:
     git commit -m
     git push origin develop
     cd public
-    ./public.sh
+    ./publish.sh
     cd ../../
     
     # Vitae
@@ -84,7 +84,7 @@ Run:
     git commit -m
     git push origin develop
     cd public
-    ./public.sh
+    ./publish.sh
     cd ../../
 
 [hugo]: https://gohugo.io
