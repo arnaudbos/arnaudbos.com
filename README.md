@@ -38,6 +38,7 @@ Run:
     cd arnaudbos.github.io
     git add .
     git commit -m
+    git push origin develop
     cd public
     ./publish.sh
     cd ../../
