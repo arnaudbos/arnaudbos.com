@@ -2,7 +2,11 @@ Built with [Hugo].
 
 ---
 
-Hint: This README is a copy/paste cheat sheet.
+This README is a copy/paste cheat sheet.
+
+## Clone all subdomains
+
+    ./clone.sh
 
 ## Preview locally
 
