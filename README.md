@@ -38,34 +38,28 @@ Once happy with your changes, commit to the `source` branch.
 
 Run:
 
+    # Theme/hugo-sustain
+    pushd hugo-sustain && git add . && git commit -m 'update' && git push origin master && popd
+
+    # Theme/hugo-vitae
+    pushd hugo-vitae && git add . && git commit -m 'update' && git push origin master && popd
+
     # Home
-    cd arnaudbos.github.io && git add . && git commit -m
-    git push origin develop
-    cd public && ./publish.sh && cd ../../
+    pushd arnaudbos.github.io && git add . && git commit -m 'update' && git push origin develop && pushd public && ./publish.sh && popd && popd
     
     # Blog
-    cd i-rant && git add . && git commit -m
-    git push origin develop
-    cd public && ./publish.sh && cd ../../
+    pushd i-rant && git add . && git commit -m 'update' && git push origin develop && pushd public && ./publish.sh && popd && popd
     
     # Level-up
-    cd level-up && git add . && git commit -m
-    git push origin develop
-    cd public && ./publish.sh && cd ../../
+    pushd level-up && git add . && git commit -m 'update' && git push origin develop && pushd public && ./publish.sh && popd && popd
     
     # Projects
-    cd side-effects && git add . && git commit -m
-    git push origin develop
-    cd public && ./publish.sh && cd ../../
+    pushd side-effects && git add . && git commit -m 'update' && git push origin develop && pushd public && ./publish.sh && popd && popd
     
     # Talks
-    cd talks && git add . && git commit -m
-    git push origin develop
-    cd public && ./publish.sh && cd ../../
+    pushd talks && git add . && git commit -m 'update' && git push origin develop && pushd public && ./publish.sh && popd && popd
     
     # Vitae
-    cd vitae && git add . && git commit -m
-    git push origin develop
-    cd public && ./publish.sh && cd ../../
+    pushd vitae && git add . && git commit -m 'update' && git push origin develop && pushd public && ./publish.sh && popd && popd
 
 [hugo]: https://gohugo.io
